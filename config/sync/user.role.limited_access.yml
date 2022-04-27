@@ -1,0 +1,11 @@
+uuid: 7423c59c-0204-4e2d-bff2-6ff05a2d4b1c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gRuNgzgL6x6uLliRT7zRKlxkwBqgy4oEXp_XzdDsOWs
+id: limited_access
+label: 'Limited access'
+weight: 4
+is_admin: null
+permissions: {  }

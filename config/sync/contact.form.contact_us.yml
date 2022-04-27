@@ -1,0 +1,12 @@
+uuid: f02710c6-686b-47b8-be84-78041f8a7a11
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - oelschlagerannie@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

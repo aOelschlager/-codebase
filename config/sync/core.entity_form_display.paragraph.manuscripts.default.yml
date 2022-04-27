@@ -1,0 +1,35 @@
+uuid: 04b85ebc-5dc9-4c7b-9a52-3c50e7516917
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.manuscripts.field_manuscripts_link
+    - field.field.paragraph.manuscripts.field_manuscripts_text
+    - paragraphs.paragraphs_type.manuscripts
+  module:
+    - link
+    - text
+id: paragraph.manuscripts.default
+targetEntityType: paragraph
+bundle: manuscripts
+mode: default
+content:
+  field_manuscripts_link:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_manuscripts_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

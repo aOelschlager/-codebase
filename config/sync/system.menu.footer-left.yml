@@ -1,0 +1,8 @@
+uuid: ea66020d-bba1-4253-91a7-827bf4ff8351
+langcode: en
+status: true
+dependencies: {  }
+id: footer-left
+label: 'Footer Left'
+description: 'NIU footer on bottom left side'
+locked: false

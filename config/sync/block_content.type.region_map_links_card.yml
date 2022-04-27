@@ -1,0 +1,8 @@
+uuid: 59551473-9a7c-45c9-8771-92f6209a3ef7
+langcode: en
+status: true
+dependencies: {  }
+id: region_map_links_card
+label: 'Region Map Links Card'
+revision: 0
+description: 'A card that displays a map with links to country pages.'

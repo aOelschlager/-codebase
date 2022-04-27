@@ -1,0 +1,24 @@
+uuid: b1784ba6-6ccd-4b1d-be23-758d355a18b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - media
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_essay_media_two
+field_name: field_essay_media_two
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

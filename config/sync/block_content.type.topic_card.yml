@@ -1,0 +1,8 @@
+uuid: 877f38ee-1cca-4607-9d40-4d09648d787f
+langcode: en
+status: true
+dependencies: {  }
+id: topic_card
+label: 'Topic Card'
+revision: 0
+description: 'Search specific topics from the homepage'

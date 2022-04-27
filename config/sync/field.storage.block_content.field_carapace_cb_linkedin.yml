@@ -1,0 +1,25 @@
+uuid: 748b61da-a494-4973-8de4-1e7aee98373d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - link
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: s9ZypsL0yFbqQnzPNX4ppnnF1iMX4MvQEEipS-NEgGo
+id: block_content.field_carapace_cb_linkedin
+field_name: field_carapace_cb_linkedin
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

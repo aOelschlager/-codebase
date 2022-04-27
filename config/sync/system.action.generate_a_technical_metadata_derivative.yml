@@ -1,0 +1,25 @@
+uuid: b66731a0-c6d9-45fc-8d2c-23620b02d060
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora_fits
+  enforced:
+    module:
+      - islandora_fits
+_core:
+  default_config_hash: KeIMeoq9XaJX8SffqTHBiH2fQIUKEKzHGqXxPnF1cm8
+id: generate_a_technical_metadata_derivative
+label: 'FITS - Generate a Technical metadata derivative'
+type: node
+plugin: generate_fits_derivative
+configuration:
+  queue: islandora-connector-fits
+  event: 'Generate Derivative'
+  source_term_uri: 'http://pcdm.org/use#OriginalFile'
+  derivative_term_uri: 'https://projects.iq.harvard.edu/fits'
+  mimetype: application/xml
+  args: null
+  destination_media_type: fits_technical_metadata
+  scheme: fedora
+  path: '[date:custom:Y]-[date:custom:m]/[node:nid]-[term:name].xml'

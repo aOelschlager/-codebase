@@ -1,0 +1,10 @@
+uuid: 95c6e812-56f4-4319-9911-6fcb06e86604
+langcode: en
+status: true
+dependencies: {  }
+id: research_institutions
+label: 'Research Institutions'
+icon_uuid: null
+icon_default: null
+description: 'Country Links'
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: 9bc7beaf-2471-47e0-adba-97c918756311
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uE-dtHAbfkR30PfP11xAW4ARdn-_EXEhB8Ku8f8RM_o
+name: large
+label: 'Large (480×480)'
+effects:
+  ddd73aa7-4islandora_install_profile_demo6-4c85-b600-islandora_install_profile_demof2b1628d1d:
+    uuid: ''
+    id: image_scale
+    weight: 0
+    data:
+      width: 480
+      height: 480
+      upscale: false

@@ -1,0 +1,21 @@
+uuid: 5e95f37f-a8a6-4768-854d-183ae39a2e28
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.country_resource_card
+    - field.storage.block_content.field_crc_body_one
+  module:
+    - text
+id: block_content.country_resource_card.field_crc_body_one
+field_name: field_crc_body_one
+entity_type: block_content
+bundle: country_resource_card
+label: 'CRC Body One'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

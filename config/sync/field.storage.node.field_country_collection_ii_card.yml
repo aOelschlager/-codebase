@@ -1,0 +1,24 @@
+uuid: 94e6ac0e-46d1-4468-8398-34a050ebe2ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_country_collection_ii_card
+field_name: field_country_collection_ii_card
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

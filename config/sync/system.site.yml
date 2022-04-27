@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: IAeTrYohwTeFqhIxVmWym9wzWaF4jRl2kUn4VRACao0
+langcode: en
+uuid: b7e76bd3-0197-44c8-b829-08b1c10d457b
+name: SEADL
+mail: webmaster@localhost.com
+slogan: 'Southeast Asia Digital Library'
+page:
+  403: '/user/login?destination=document.location.pathname'
+  404: ''
+  front: /node/85
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

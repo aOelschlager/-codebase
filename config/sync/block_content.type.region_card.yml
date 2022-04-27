@@ -1,0 +1,8 @@
+uuid: 4d0d3fe6-0c46-4abf-a705-cbe70dafede7
+langcode: en
+status: true
+dependencies: {  }
+id: region_card
+label: 'Region Card'
+revision: 0
+description: 'Card with region information'

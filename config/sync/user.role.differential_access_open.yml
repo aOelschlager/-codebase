@@ -1,0 +1,11 @@
+uuid: 04010597-e331-43c9-9302-9fd9a42780c3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Dba2hzmtLGcEYaC3g7LzEFFayiUsjhWt2g8QkubiLKU
+id: differential_access_open
+label: 'Differential access - open'
+weight: 5
+is_admin: null
+permissions: {  }

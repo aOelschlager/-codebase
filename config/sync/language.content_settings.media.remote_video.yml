@@ -1,0 +1,13 @@
+uuid: 173ad9be-8199-4b96-ad15-4ad1339f65b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+_core:
+  default_config_hash: oHrTYlXKvrxexp6iHU4J_NDAC6Ycmfg-2VJXbwuAeg4
+id: media.remote_video
+target_entity_type_id: media
+target_bundle: remote_video
+default_langcode: site_default
+language_alterable: false

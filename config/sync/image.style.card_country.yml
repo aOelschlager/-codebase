@@ -1,0 +1,7 @@
+uuid: 8a776b2d-3b68-4210-9888-a0a9ce97f650
+langcode: en
+status: true
+dependencies: {  }
+name: card_country
+label: 'Card Country'
+effects: {  }

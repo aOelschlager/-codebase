@@ -1,0 +1,14 @@
+uuid: 3f429f19-3b26-4605-8f60-844b9ae790a0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kREQfuwxSSiMNsffo37w66lpbhHVXQ8fEsa1YvgbMag
+id: search_api__views_page__solr_search_content__page_1
+name: 'search_api:views_page__solr_search_content__page_1'
+filter_key: ''
+url_processor: query_string
+breadcrumb:
+  active: false
+  before: true
+  group: false

@@ -1,0 +1,10 @@
+uuid: ea75903e-7029-4657-bfd3-ef1a3026e8df
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.card
+label: Card
+targetEntityType: block_content
+cache: true

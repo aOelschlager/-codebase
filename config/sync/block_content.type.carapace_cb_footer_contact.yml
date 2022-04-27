@@ -1,0 +1,10 @@
+uuid: c5da990d-7174-4258-b9e8-931d9ea1b5ef
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dwbm2rC0m21jAYJXniQHN9tDdmC28dhKX7Wm4emMiqM
+id: carapace_cb_footer_contact
+label: 'Footer: Contact'
+revision: 0
+description: 'Institution contact information'

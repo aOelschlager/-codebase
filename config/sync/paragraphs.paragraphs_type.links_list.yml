@@ -1,0 +1,10 @@
+uuid: 0c820492-f30e-4d1c-ae32-041320eb2bfb
+langcode: en
+status: true
+dependencies: {  }
+id: links_list
+label: 'Links List'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph featuring link and text for Country Pages. '
+behavior_plugins: {  }

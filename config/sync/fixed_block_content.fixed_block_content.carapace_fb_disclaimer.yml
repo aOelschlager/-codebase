@@ -1,0 +1,14 @@
+uuid: 3df063b8-9249-417e-a47d-19cba2abc858
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+_core:
+  default_config_hash: sIHl-Z3hoR4_r6dI3lTU00E3HD7Wleu-S2Jpb7K8XQw
+id: carapace_fb_disclaimer
+title: Disclaimer
+block_content_bundle: basic
+default_content: null
+auto_export: 1
+protected: true

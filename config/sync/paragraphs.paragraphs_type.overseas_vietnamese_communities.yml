@@ -1,0 +1,10 @@
+uuid: 64aa11aa-3484-4095-9cfb-6eccb97e5b0d
+langcode: en
+status: true
+dependencies: {  }
+id: overseas_vietnamese_communities
+label: 'Overseas Vietnamese Communities'
+icon_uuid: null
+icon_default: null
+description: 'Country Links'
+behavior_plugins: {  }

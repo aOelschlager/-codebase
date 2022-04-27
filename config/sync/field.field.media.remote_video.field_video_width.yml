@@ -1,0 +1,21 @@
+uuid: 18a2d018-dc71-4c36-976b-d74a97cbd77c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_width
+    - media.type.remote_video
+_core:
+  default_config_hash: sF_-JWQVsluzrtK0ITAQ9c5zhHeBH1VJZiPUJ2s55mQ
+id: media.remote_video.field_video_width
+field_name: field_video_width
+entity_type: media
+bundle: remote_video
+label: 'Video Width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

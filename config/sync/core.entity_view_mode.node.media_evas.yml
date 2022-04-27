@@ -1,0 +1,12 @@
+uuid: 944f97b9-2a1e-4d55-b71d-fcc35b016180
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ZQyaGAoT4YJInjKo35YuAxDqGriWeDv4JNLlDKHB51o
+id: node.media_evas
+label: 'Media EVAs'
+targetEntityType: node
+cache: true

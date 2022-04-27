@@ -1,0 +1,12 @@
+uuid: 1b6f4038-f53b-4f4b-bff6-e680de0514c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.whats_new_card
+id: whats_new_card
+title: 'Whats New Card'
+block_content_bundle: whats_new_card
+default_content: null
+auto_export: 0
+protected: false

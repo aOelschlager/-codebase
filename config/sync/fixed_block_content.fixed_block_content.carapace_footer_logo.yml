@@ -1,0 +1,14 @@
+uuid: 9913838b-ba98-47cb-aa2f-77b149c78fd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_logo
+_core:
+  default_config_hash: jkY_JZouunEf-gbHUuZmOoZ6-H4LWLL0w05XGzWFvO8
+id: carapace_footer_logo
+title: 'Footer: Logo'
+block_content_bundle: footer_logo
+default_content: null
+auto_export: 1
+protected: true

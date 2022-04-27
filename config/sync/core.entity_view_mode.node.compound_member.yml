@@ -1,0 +1,12 @@
+uuid: 3044d33d-32bf-4f01-bbd1-c2e9370f62e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Exy7cRXpvDG9Zow5p2cJg6ITq-8Vn3v7LImIlVEx2Vw
+id: node.compound_member
+label: 'Compound - Member'
+targetEntityType: node
+cache: true

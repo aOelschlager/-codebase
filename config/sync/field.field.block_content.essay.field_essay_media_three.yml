@@ -1,0 +1,34 @@
+uuid: d66aecbb-b87e-4892-9d22-fa1c5b9562b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.essay
+    - field.storage.block_content.field_essay_media_three
+    - media.type.image
+  content:
+    - 'media:image:d393ea6e-95ab-4663-bbdf-ba497e240f09'
+id: block_content.essay.field_essay_media_three
+field_name: field_essay_media_three
+entity_type: block_content
+bundle: essay
+label: 'Essay Media Three'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: d393ea6e-95ab-4663-bbdf-ba497e240f09
+    weight: 0
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

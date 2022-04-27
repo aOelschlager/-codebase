@@ -1,0 +1,27 @@
+uuid: 9739f1d4-92c5-4519-a8de-478fb985cb9a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - islandora_starter_theme
+_core:
+  default_config_hash: VIqBIerz4EOUjk35rU-wo-lTwcD6hBrwmnKSMojIKvc
+id: islandora_starter_theme_tools
+theme: islandora_starter_theme
+region: footer_third
+weight: -8
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

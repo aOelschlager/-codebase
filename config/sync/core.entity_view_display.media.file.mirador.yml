@@ -1,0 +1,45 @@
+uuid: aa0d22f6-6f23-40b7-9ea4-eea66c94ab30
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.mirador
+    - field.field.media.file.field_access_terms
+    - field.field.media.file.field_file_size
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_media_of
+    - field.field.media.file.field_media_use
+    - field.field.media.file.field_mime_type
+    - field.field.media.file.field_original_name
+    - media.type.file
+  module:
+    - file
+_core:
+  default_config_hash: MICZ4D1-I5qE0YtKCi7yiBN7k7edtjig0kV878Xz_Og
+id: media.file.mirador
+targetEntityType: media
+bundle: file
+mode: mirador
+content:
+  field_media_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  field_access_terms: true
+  field_file_size: true
+  field_gemini_uri: true
+  field_media_of: true
+  field_media_use: true
+  field_mime_type: true
+  field_original_name: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

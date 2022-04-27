@@ -1,0 +1,11 @@
+uuid: 99d797fd-4c9d-4042-ae54-ccdf2c173807
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+id: card_image
+label: 'Card Image'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: large

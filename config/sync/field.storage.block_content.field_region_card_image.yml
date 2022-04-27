@@ -1,0 +1,34 @@
+uuid: b8806768-943c-4ce6-8e08-1fd659286a2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - file
+    - image
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_region_card_image
+field_name: field_region_card_image
+entity_type: block_content
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: fedora
+  default_image:
+    uuid: bf706f8e-db36-43cc-9c74-d0dbedd2656a
+    alt: 'Southeast Asia Map'
+    title: 'Southeast Asia Region'
+    width: 4167
+    height: 3701
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

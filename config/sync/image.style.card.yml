@@ -1,0 +1,7 @@
+uuid: 9a1c434c-f724-45e0-986f-bfb81f1a6c01
+langcode: en
+status: true
+dependencies: {  }
+name: card
+label: Card
+effects: {  }

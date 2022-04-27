@@ -1,0 +1,24 @@
+uuid: c309e7ef-689e-4e2f-9a94-70bc4797f9bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_regions_card
+field_name: field_regions_card
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 10bc8f88-f8cd-42ee-ae2f-00fb829efeb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.region_card
+id: region_card
+title: 'Region Card'
+block_content_bundle: region_card
+default_content: null
+auto_export: 0
+protected: false

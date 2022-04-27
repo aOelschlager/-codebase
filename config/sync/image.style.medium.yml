@@ -1,0 +1,17 @@
+uuid: fa228b5a-21b2-40bb-b3f7-ee8555775ea7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mLp9NH0LEhJz9BC1zuyyU9oT-5WHr1apV-NaOE85Eok
+name: medium
+label: 'Medium (220×220)'
+effects:
+  islandora_install_profile_demodf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: ''
+    id: image_scale
+    weight: 0
+    data:
+      width: 220
+      height: 220
+      upscale: false

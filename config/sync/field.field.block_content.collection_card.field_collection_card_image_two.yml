@@ -1,0 +1,34 @@
+uuid: 340a52ac-ca6f-4490-9a4d-ffb1e183ae08
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.collection_card
+    - field.storage.block_content.field_collection_card_image_two
+    - media.type.image
+  content:
+    - 'media:image:2b739a51-eced-4d1d-9acd-eb3ab2d5bf96'
+id: block_content.collection_card.field_collection_card_image_two
+field_name: field_collection_card_image_two
+entity_type: block_content
+bundle: collection_card
+label: 'Collection Card Image Two'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 2b739a51-eced-4d1d-9acd-eb3ab2d5bf96
+    weight: 0
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

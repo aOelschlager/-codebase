@@ -1,0 +1,28 @@
+uuid: cf08521e-9386-4b8a-a0e0-45de40a3b8cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.collection_card
+    - field.storage.block_content.field_collection_card_link
+  module:
+    - link
+id: block_content.collection_card.field_collection_card_link
+field_name: field_collection_card_link
+entity_type: block_content
+bundle: collection_card
+label: 'Collection Card Link One'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://islandora.traefik.me/islandora/art-age-doi-moi'
+    title: 'Art in the Age of Doi Moi '
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

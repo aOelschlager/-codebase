@@ -1,0 +1,10 @@
+uuid: 1991e8ea-f2b4-4c96-b551-af4f9a5e1425
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: e9ItK9hrz-4l2yl8hghOf827JgcFHOJbjI2zFbgm-IE
+name: 'Geographic Location'
+vid: geo_location
+description: 'Geographic area(s) and places to which the records pertain.'
+weight: 0

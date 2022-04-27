@@ -1,0 +1,22 @@
+uuid: 8f77c741-b317-40cd-8f89-006db959f9e9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - islandora_base_theme
+_core:
+  default_config_hash: rCsz_8sYmGIzdCWEp7BdvVtA_nSK3Pgse4c1m5ZgXt4
+id: islandora_base_theme_local_tasks
+theme: islandora_base_theme
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,45 @@
+uuid: d4d4c5b4-1606-41d6-bf74-5279a65704ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+    - islandora_install_profile_demo_core
+    - system
+    - user
+  theme:
+    - islandora_starter_theme
+_core:
+  default_config_hash: TRVHZqCc3V9kCB8vHFTwhs9jC1_46jbNIxgturCiC58
+id: islandora_starter_theme_messages
+theme: islandora_starter_theme
+region: footer_disclaimer
+weight: -15
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }
+  node_has_implicit_parent:
+    id: node_has_implicit_parent
+    negate: false
+    context_mapping: {  }
+    model_uri: null
+    parent_reference_field: field_member_of
+    uri: null
+    logic: and
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

@@ -1,0 +1,11 @@
+uuid: 7a60d384-37f7-40b3-a13f-28ab3bb6abe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.lesson_plans
+id: block_content.lesson_plans
+target_entity_type_id: block_content
+target_bundle: lesson_plans
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,8 @@
+uuid: 19e069f3-6ad5-4c51-b277-5d22b7661713
+langcode: en
+status: true
+dependencies: {  }
+id: country_collection_two_card
+label: 'Country Collection Two Card'
+revision: 0
+description: 'A card to display 2 collections.'

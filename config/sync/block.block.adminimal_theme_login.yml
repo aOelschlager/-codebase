@@ -1,0 +1,22 @@
+uuid: da079559-7665-44b0-9668-63e054c7a7be
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - adminimal_theme
+_core:
+  default_config_hash: C2QM6bEzyQ3bJqVT5Vnj3emfroWCTCkvgQyNT-FGmsU
+id: adminimal_theme_login
+theme: adminimal_theme
+region: header
+weight: -9
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

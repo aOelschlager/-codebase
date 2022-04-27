@@ -1,0 +1,18 @@
+uuid: ca0c534e-5b34-4491-92e6-4b4321baa4e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.frequencies
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: ovbXjB8Upa3S-JWM0CW3gpDcGbAf2xcG83puKTDkS7Q
+id: taxonomy_term.frequencies
+target_entity_type_id: taxonomy_term
+target_bundle: frequencies
+default_langcode: site_default
+language_alterable: false

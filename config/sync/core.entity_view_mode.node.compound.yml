@@ -1,0 +1,12 @@
+uuid: 98cb5fbb-3f55-43b1-bb9b-161ea0750508
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: yWPurW6-HBzSEVSVHfOwpN0SDrbri9pNMHbDr_C6jAo
+id: node.compound
+label: Compound
+targetEntityType: node
+cache: true

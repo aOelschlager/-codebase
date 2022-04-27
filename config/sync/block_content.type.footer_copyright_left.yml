@@ -1,0 +1,8 @@
+uuid: bf128ad6-e0f7-4f04-aaa2-5c0dbf253ab1
+langcode: en
+status: true
+dependencies: {  }
+id: footer_copyright_left
+label: 'Footer: Copyright Left'
+revision: 0
+description: 'NIU left copyright footer'

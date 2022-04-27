@@ -1,0 +1,7 @@
+uuid: 72a2a539-9625-4b30-be96-23c45d3192d3
+langcode: en
+status: true
+dependencies: {  }
+name: card_wn
+label: 'Card WN'
+effects: {  }

@@ -1,0 +1,8 @@
+uuid: ae7590f7-0044-4f27-a5c7-819b3beebbc7
+langcode: en
+status: true
+dependencies: {  }
+id: mobile-footer
+label: 'Mobile Footer'
+description: 'NIU mobile footer'
+locked: false

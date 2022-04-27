@@ -1,0 +1,49 @@
+uuid: 79f7f83b-3e4f-4897-8f34-068e899fe210
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+    - islandora
+    - islandora_install_profile_demo_core
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: Li1RSFPdZjeay5l6sVIrXRitCHYTo9Jyz_cffcEUF_w
+id: seven_content
+theme: seven
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  node_has_implicit_parent:
+    id: node_has_implicit_parent
+    negate: false
+    context_mapping: {  }
+    model_uri: null
+    parent_reference_field: field_member_of
+    uri: null
+    logic: and
+    tid: null
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    context_mapping: {  }
+    view_inclusion: {  }
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: null
+    context_mapping: {  }
+    pages: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 97867003-3271-401b-a741-2724f056d17e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.carapace_cb_footer_contact
+    - field.storage.block_content.field_carapace_cb_inst_address
+  module:
+    - text
+_core:
+  default_config_hash: MeILxQJDd2dPUQKo8wcshB_mHmJ9Q6fl9nAYggBI3vQ
+id: block_content.carapace_cb_footer_contact.field_carapace_cb_inst_address
+field_name: field_carapace_cb_inst_address
+entity_type: block_content
+bundle: carapace_cb_footer_contact
+label: 'Institution address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,24 @@
+uuid: f2aacd21-39e0-4bca-8e48-8e4462691115
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+_core:
+  default_config_hash: POrYQesqXscG-7JjiVG1sdrFgxfa1Afrw06x4n4JYXU
+label: Audio
+name: audio
+group: Display
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  media_has_term:
+    id: media_has_term
+    negate: false
+    context_mapping:
+      media: '@islandora.media_route_context_provider:media'
+    uri: 'http://purl.org/coar/resource_type/c_18cc,http://purl.org/dc/dcmitype/Sound'
+    logic: and
+reactions: {  }
+weight: -13

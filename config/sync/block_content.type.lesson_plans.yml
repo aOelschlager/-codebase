@@ -1,0 +1,8 @@
+uuid: da0cd36d-d516-4d50-b05f-acde06bc3ec4
+langcode: en
+status: true
+dependencies: {  }
+id: lesson_plans
+label: 'Lesson Plans'
+revision: 0
+description: 'Card with Lesson Plans'

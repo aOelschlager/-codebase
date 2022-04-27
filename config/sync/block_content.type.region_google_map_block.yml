@@ -1,0 +1,8 @@
+uuid: cbe47ce4-eb3b-4ddd-b77c-7a58069cafab
+langcode: en
+status: true
+dependencies: {  }
+id: region_google_map_block
+label: 'Region Google Map'
+revision: 0
+description: 'A block for Google my maps. Will be replaces with leaflet map.'

@@ -1,0 +1,10 @@
+uuid: 4572bfc9-39e9-4715-b9f8-7297e1056c9e
+langcode: en
+status: true
+dependencies: {  }
+id: general_information
+label: 'General Information'
+icon_uuid: null
+icon_default: null
+description: 'Country Links'
+behavior_plugins: {  }

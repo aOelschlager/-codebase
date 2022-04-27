@@ -1,0 +1,12 @@
+uuid: a3c4c06b-9379-4139-84e6-e35bafa56d8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: dpQPa-J0kLsHUr4Vxu-sw0j4Dq_jIvkrVa93QAzA6HU
+id: node.video
+label: 'Remote Media'
+targetEntityType: node
+cache: true

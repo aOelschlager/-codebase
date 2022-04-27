@@ -1,0 +1,25 @@
+uuid: af49fb47-ee28-459b-a0eb-0913c4f785d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - link
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: j9MwQ4gfJ7hrBZvrUj-Y3DLD8xzY4WOV_OgUUhRueZQ
+id: block_content.field_carapace_cb_twitter
+field_name: field_carapace_cb_twitter
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

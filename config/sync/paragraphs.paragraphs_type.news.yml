@@ -1,0 +1,10 @@
+uuid: db65b91a-884f-41f5-80e4-cd92b55a8851
+langcode: en
+status: true
+dependencies: {  }
+id: news
+label: News
+icon_uuid: null
+icon_default: null
+description: 'Country Links'
+behavior_plugins: {  }

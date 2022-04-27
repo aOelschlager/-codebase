@@ -1,0 +1,12 @@
+uuid: 56f6a994-aa44-47d8-b4cd-9e5d72526853
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.region_map_links_card
+id: region_map_links_card
+title: 'Region Map Links Card'
+block_content_bundle: region_map_links_card
+default_content: null
+auto_export: 0
+protected: false

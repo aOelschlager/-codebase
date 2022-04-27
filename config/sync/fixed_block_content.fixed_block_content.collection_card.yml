@@ -1,0 +1,12 @@
+uuid: 7832bf5c-fc88-4e8b-b934-f97f73ba8ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.collection_card
+id: collection_card
+title: 'Collection Card'
+block_content_bundle: collection_card
+default_content: null
+auto_export: 0
+protected: false

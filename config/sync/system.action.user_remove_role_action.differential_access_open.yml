@@ -1,0 +1,16 @@
+uuid: d7818120-d24e-43bf-b1cb-c8576c3d3244
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.differential_access_open
+  module:
+    - user
+_core:
+  default_config_hash: kDw-aMuBtLJkG-mu7uGGgJ3LRqIx_sQ6jUyOziqtEd0
+id: user_remove_role_action.differential_access_open
+label: 'Remove the Differential access - open role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: differential_access_open

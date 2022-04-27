@@ -1,0 +1,8 @@
+uuid: a2336c6f-d033-411c-ad3b-f3e26bf9d9f9
+langcode: en
+status: true
+dependencies: {  }
+id: niu_logo_footer
+label: 'Footer: NIU Logo'
+revision: 0
+description: 'NIU''s logo for footer'

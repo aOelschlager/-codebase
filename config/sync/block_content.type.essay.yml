@@ -1,0 +1,8 @@
+uuid: f0380247-02cf-41dc-b08f-95d33281bf95
+langcode: en
+status: true
+dependencies: {  }
+id: essay
+label: Essay
+revision: 0
+description: 'Card that shows essays.'

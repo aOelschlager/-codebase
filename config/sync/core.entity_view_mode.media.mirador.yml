@@ -1,0 +1,12 @@
+uuid: d9e8dc70-9093-4259-8cff-f560e27277b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: XYEsrl4cK9s75S2w6dqLEQbeGATfAHzJFB4yJcGnsWs
+id: media.mirador
+label: Mirador
+targetEntityType: media
+cache: true

@@ -1,0 +1,23 @@
+uuid: 49b24422-65af-48ce-98f1-dc51d79ba4e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - link
+    - paragraphs
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_political_and_social_issue
+field_name: field_political_and_social_issue
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

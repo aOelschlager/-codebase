@@ -1,0 +1,8 @@
+uuid: a2babc79-f330-459c-b8a6-4633e92261ad
+langcode: en
+status: true
+dependencies: {  }
+id: mobile-global-header
+label: 'Mobile Global Header'
+description: 'NIU''s Mobile Top Header Menu'
+locked: false

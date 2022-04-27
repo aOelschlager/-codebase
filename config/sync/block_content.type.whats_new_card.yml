@@ -1,0 +1,8 @@
+uuid: c6959403-c241-4b23-a390-b1d1d74ec1ac
+langcode: en
+status: true
+dependencies: {  }
+id: whats_new_card
+label: 'Whats New Card'
+revision: 0
+description: 'Card that shows what''s new'

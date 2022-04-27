@@ -1,0 +1,34 @@
+uuid: b2192db1-954a-463a-b2ce-bbd5a48808bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.collection_card
+    - field.storage.block_content.field_collection_card_image
+    - media.type.image
+  content:
+    - 'media:image:ffcb1df7-ba83-432a-96a2-595bd953a3ef'
+id: block_content.collection_card.field_collection_card_image
+field_name: field_collection_card_image
+entity_type: block_content
+bundle: collection_card
+label: 'Collection Card Image One'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: ffcb1df7-ba83-432a-96a2-595bd953a3ef
+    weight: 0
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

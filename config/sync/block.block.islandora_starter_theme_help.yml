@@ -1,0 +1,22 @@
+uuid: 7cfbdad4-8442-4f57-9576-607e0cb64d15
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - islandora_starter_theme
+_core:
+  default_config_hash: 5gX-UnwFk47efYQb6dJpJDjsbVztkJu8AWTm_7Ub_pc
+id: islandora_starter_theme_help
+theme: islandora_starter_theme
+region: content
+weight: -24
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

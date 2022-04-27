@@ -1,0 +1,20 @@
+uuid: 1d636b33-829e-46f2-9c82-eeb58612246d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - responsive_image
+_core:
+  default_config_hash: x7XYjyTUg9K1lcrtYtMBcMmH8-gMtWBpyuienCvUTjc
+name: max_325x325
+label: 'Max 325x325'
+effects:
+  cb842cc8-682f-42a6-islandora_install_profile_demo05-5a1ac726f0d8:
+    uuid: ''
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: 325
+      upscale: false

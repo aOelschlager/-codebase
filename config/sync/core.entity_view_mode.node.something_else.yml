@@ -1,0 +1,12 @@
+uuid: 21ee875c-b70b-45f5-a065-30ecbecc8783
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: qQ52536XyS60QnEvwpz2dUN8uP4FYWih48PvqTX0xbI
+id: node.something_else
+label: 'Something Else'
+targetEntityType: node
+cache: true

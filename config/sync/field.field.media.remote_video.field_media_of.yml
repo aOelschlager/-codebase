@@ -1,0 +1,30 @@
+uuid: 73dcf3fd-b321-4155-98dd-684e0506aea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_of
+    - media.type.remote_video
+    - node.type.islandora_object
+_core:
+  default_config_hash: kzMK3vhdItIATt1hEFySGYSmMc6DWnltkJ02gbxow9k
+id: media.remote_video.field_media_of
+field_name: field_media_of
+entity_type: media
+bundle: remote_video
+label: 'Media of'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      islandora_object: islandora_object
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

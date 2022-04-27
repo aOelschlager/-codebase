@@ -1,0 +1,23 @@
+uuid: 06637c53-7679-4a4a-93c1-26a9828b5ffc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_book_links
+    - paragraphs.paragraphs_type.books
+  module:
+    - link
+id: paragraph.books.field_book_links
+field_name: field_book_links
+entity_type: paragraph
+bundle: books
+label: 'Book Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

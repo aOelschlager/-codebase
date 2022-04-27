@@ -1,0 +1,12 @@
+uuid: 9ad990ee-6390-456c-ab57-7e19261f9400
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: CcpxMi9ewgXvwzpPQcMXQifMYEURwqw9z2qnN1t43PI
+id: node.paged_content
+label: Paged
+targetEntityType: node
+cache: true

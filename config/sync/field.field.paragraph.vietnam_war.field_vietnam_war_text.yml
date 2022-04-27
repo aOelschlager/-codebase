@@ -1,0 +1,21 @@
+uuid: 53e468bb-4594-4ce8-bfe1-f92b5e6b3e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_vietnam_war_text
+    - paragraphs.paragraphs_type.vietnam_war
+  module:
+    - text
+id: paragraph.vietnam_war.field_vietnam_war_text
+field_name: field_vietnam_war_text
+entity_type: paragraph
+bundle: vietnam_war
+label: 'Vietnam War Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

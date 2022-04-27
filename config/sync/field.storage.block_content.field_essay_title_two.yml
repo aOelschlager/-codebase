@@ -1,0 +1,24 @@
+uuid: 64b4a8e6-20a2-41e9-97d4-790f175a4b62
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_essay_title_two
+field_name: field_essay_title_two
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
