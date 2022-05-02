@@ -15,12 +15,7 @@ label: 'Essay Link Two'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    attributes: {  }
-    uri: 'https://islandora.traefik.me/essay-2'
-    title: 'Writing Traditions of Indonesia'
-    options: {  }
+default_value: {  }
 default_value_callback: ''
 settings:
   title: 1

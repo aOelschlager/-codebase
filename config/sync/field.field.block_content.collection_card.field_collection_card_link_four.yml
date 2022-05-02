@@ -15,12 +15,7 @@ label: 'Collection Card Link Four'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    attributes: {  }
-    uri: 'https://islandora.traefik.me/islandora/mandalay-marionettes-theater-puppet-show'
-    title: 'Mandalay Marionettes Theater Puppet Show'
-    options: {  }
+default_value: {  }
 default_value_callback: ''
 settings:
   title: 1

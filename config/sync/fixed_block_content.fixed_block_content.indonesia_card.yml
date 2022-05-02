@@ -1,0 +1,12 @@
+uuid: 68948ab2-b02f-451d-8c47-597d17bb786d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.indonesia_card
+id: indonesia_card
+title: indonesia_card
+block_content_bundle: indonesia_card
+default_content: null
+auto_export: 1
+protected: false

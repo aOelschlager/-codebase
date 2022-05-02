@@ -1,0 +1,12 @@
+uuid: 8624489d-1898-4434-97a1-4ba35aa49568
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.essay
+id: essay
+title: essay
+block_content_bundle: essay
+default_content: null
+auto_export: 1
+protected: false

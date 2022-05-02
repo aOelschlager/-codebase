@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.essay
     - field.storage.block_content.field_essay_media_one
     - media.type.image
-  content:
-    - 'media:image:ffcb1df7-ba83-432a-96a2-595bd953a3ef'
 id: block_content.essay.field_essay_media_one
 field_name: field_essay_media_one
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Essay Media One'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: ffcb1df7-ba83-432a-96a2-595bd953a3ef
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'

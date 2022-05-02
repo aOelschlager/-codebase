@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.indonesia_card
     - field.storage.block_content.field_indonesia_card_media
     - media.type.image
-  content:
-    - 'media:image:533724eb-0acf-4b7b-8704-00ea72e580db'
 id: block_content.indonesia_card.field_indonesia_card_media
 field_name: field_indonesia_card_media
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Indonesia Card Media'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: 533724eb-0acf-4b7b-8704-00ea72e580db
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'

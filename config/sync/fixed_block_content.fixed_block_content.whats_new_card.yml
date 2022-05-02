@@ -8,5 +8,5 @@ id: whats_new_card
 title: 'Whats New Card'
 block_content_bundle: whats_new_card
 default_content: null
-auto_export: 0
+auto_export: 1
 protected: false

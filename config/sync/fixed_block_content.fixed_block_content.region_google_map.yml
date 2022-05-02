@@ -1,0 +1,12 @@
+uuid: 53ffd986-d076-41e6-9308-c711b13ef164
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.region_google_map_block
+id: region_google_map
+title: region_google_map
+block_content_bundle: region_google_map_block
+default_content: null
+auto_export: 1
+protected: false

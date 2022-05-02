@@ -15,12 +15,7 @@ label: 'Collection Card Link One'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    attributes: {  }
-    uri: 'https://islandora.traefik.me/islandora/art-age-doi-moi'
-    title: 'Art in the Age of Doi Moi '
-    options: {  }
+default_value: {  }
 default_value_callback: ''
 settings:
   title: 1

@@ -14,6 +14,7 @@ source_configuration:
   source_field: field_media_oembed_video
   thumbnails_directory: 'public://oembed_thumbnails'
   providers:
+    - YouTube
     - Vimeo
 field_map:
   title: field_original_name

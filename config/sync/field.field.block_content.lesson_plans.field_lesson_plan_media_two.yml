@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.lesson_plans
     - field.storage.block_content.field_lesson_plan_media_two
     - media.type.image
-  content:
-    - 'media:image:f8254ec8-394c-4138-aafc-403afebabb09'
 id: block_content.lesson_plans.field_lesson_plan_media_two
 field_name: field_lesson_plan_media_two
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Lesson Plan Media Two'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: f8254ec8-394c-4138-aafc-403afebabb09
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'

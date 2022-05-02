@@ -1,0 +1,12 @@
+uuid: f67c6596-9a42-42c1-bd37-abf22177c1d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.country_resource_card
+id: country_resource_card
+title: country_resource_card
+block_content_bundle: country_resource_card
+default_content: null
+auto_export: 1
+protected: false

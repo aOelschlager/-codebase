@@ -20,9 +20,9 @@ settings:
   display_default: false
   uri_scheme: fedora
   default_image:
-    uuid: bf706f8e-db36-43cc-9c74-d0dbedd2656a
-    alt: 'Southeast Asia Map'
-    title: 'Southeast Asia Region'
+    uuid: ''
+    alt: ''
+    title: ''
     width: 4167
     height: 3701
 module: image

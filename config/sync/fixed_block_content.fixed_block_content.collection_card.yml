@@ -8,5 +8,5 @@ id: collection_card
 title: 'Collection Card'
 block_content_bundle: collection_card
 default_content: null
-auto_export: 0
+auto_export: 1
 protected: false

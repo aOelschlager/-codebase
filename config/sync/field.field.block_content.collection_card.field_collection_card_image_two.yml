@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.collection_card
     - field.storage.block_content.field_collection_card_image_two
     - media.type.image
-  content:
-    - 'media:image:2b739a51-eced-4d1d-9acd-eb3ab2d5bf96'
 id: block_content.collection_card.field_collection_card_image_two
 field_name: field_collection_card_image_two
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Collection Card Image Two'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: 2b739a51-eced-4d1d-9acd-eb3ab2d5bf96
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'

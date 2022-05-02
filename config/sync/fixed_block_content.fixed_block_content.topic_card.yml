@@ -8,5 +8,5 @@ id: topic_card
 title: 'Topic Card'
 block_content_bundle: topic_card
 default_content: null
-auto_export: 0
+auto_export: 1
 protected: false

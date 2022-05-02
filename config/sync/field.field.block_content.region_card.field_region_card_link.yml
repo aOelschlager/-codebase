@@ -15,12 +15,7 @@ label: 'Region Card Link'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    attributes: {  }
-    uri: 'https://islandora.traefik.me/region-page'
-    title: 'Southeast Asia, the Region'
-    options: {  }
+default_value: {  }
 default_value_callback: ''
 settings:
   title: 1

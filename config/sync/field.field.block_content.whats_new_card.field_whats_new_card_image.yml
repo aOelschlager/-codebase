@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.whats_new_card
     - field.storage.block_content.field_whats_new_card_image
     - media.type.image
-  content:
-    - 'media:image:5afd95b5-d09e-4330-90e9-bfd6ec941def'
 id: block_content.whats_new_card.field_whats_new_card_image
 field_name: field_whats_new_card_image
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Whats New Card Image'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: 5afd95b5-d09e-4330-90e9-bfd6ec941def
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'

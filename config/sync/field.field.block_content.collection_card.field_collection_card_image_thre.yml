@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.collection_card
     - field.storage.block_content.field_collection_card_image_thre
     - media.type.image
-  content:
-    - 'media:image:86b67b73-d75d-4693-8904-e26e7672f067'
 id: block_content.collection_card.field_collection_card_image_thre
 field_name: field_collection_card_image_thre
 entity_type: block_content
@@ -16,10 +14,7 @@ label: 'Collection Card Image Three'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    target_uuid: 86b67b73-d75d-4693-8904-e26e7672f067
-    weight: 0
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:media'
